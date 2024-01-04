@@ -1,0 +1,25 @@
+{
+  "name": "fromholdio/silverstripe-dropdownoptionattrsfield",
+  "type": "silverstripe-vendormodule",
+  "description": "Dropdown field with ability to set attributes on contained options",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-dropdownoptionattrsfield",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-dropdownoptionattrsfield/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/framework": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\DropdownOptionAttrsField\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
